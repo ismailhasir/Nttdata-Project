@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Box, ClickAwayListener, Fade, Paper, Popper, Typography } from '@mui/material';
+import { Box, ClickAwayListener, Container, Fade, Paper, Popper, Typography } from '@mui/material';
 
 
 export default function MenuExpand(props) {
@@ -25,13 +25,10 @@ export default function MenuExpand(props) {
             <Box
               component={Paper}
               sx={{
-                minHeight: '30vh',
-                maxHeight: '30vh',
-                width: '100%',
-                display: 'flex',
-                flexFlow: 'row nowrap',
-                gap: 1,
-                p: 2,
+                display: "flex",
+              justifyContent: "space-around",
+              gap: 1,
+              p: 2,
               }}
             >
               <Box sx={{ flex: '15%' }}>
@@ -54,11 +51,11 @@ export default function MenuExpand(props) {
               </Box>
               <Box
                 sx={{
-                  flex: '70%',
                   p: 1,
-                  backgroundImage: 'url("/assets/img/sub-menu-bg.png")',
-                  backgroundRepeat: 'no-repeat',
-                  backgroundSize: 'cover'
+                  backgroundImage: 'url("https://loremflickr.com/640/480")',
+                  backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                minWidth: "37%",
                 }}
               >
               </Box>
