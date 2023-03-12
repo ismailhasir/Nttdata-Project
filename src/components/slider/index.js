@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable import/no-anonymous-default-export */
 import { Box } from "@mui/material";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import SliderButtons from "./SliderButtons";
 
 export default () => {
