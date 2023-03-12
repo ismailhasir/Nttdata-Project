@@ -1,11 +1,9 @@
 /* eslint-disable import/no-anonymous-default-export */
 import { Toolbar, styled, Box, Divider } from "@mui/material"
-import { screenSizes } from "../../../constants";
 import AutoCompleteComponent from "./Autocomplete";
 import Logo from "./Logo";
 import NavbarMenu from "./NavbarMenu";
 import SearchButton from "./SearchButton";
-import SearchInput from "./SearchInput";
 
 const HeaderWrapper = styled('div')(({ theme }) => ({
   backgroundColor: theme.palette.background.default,
