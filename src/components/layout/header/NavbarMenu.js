@@ -51,7 +51,7 @@ export default () => {
     else if (window.innerWidth < 600 && navItems.navItems &&  navItems?.navItems?.length<3) return setMenuItems((prev) => ({
       ...prev, currentItems: prev?.menuItems.slice(0, 2), navItems: prev?.menuItems.slice(-6, -1)
     }))
-    
+      // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
   return (
     <>
